@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import AddTodo from "/Users/loubenskybelile/Desktop/IBM/Week1/to-do-list-week-1-Louie-Belile/src/component/AddTodo.js";
-import Todos from "/Users/loubenskybelile/Desktop/IBM/Week1/to-do-list-week-1-Louie-Belile/src/component/todos.js";
-import "/Users/loubenskybelile/Desktop/IBM/Week1/to-do-list-week-1-Louie-Belile/src/pages/Home.css";
+import AddTodo from "../src/component/AddTodo.js";
+import Todos from "../src/component/todos.js";
+import "../src/pages/Home.css";
 
 class Home extends Component {
   // A default state of this component with an empty list of todos.
